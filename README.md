@@ -144,3 +144,12 @@ Para configurar o editor padrão de edição de mensagens do prompt do git, só 
 Inclusive, pra quem é estudante o Github oferece umas coisas bem legais, então faz o seu [cadastro aqui](https://education.github.com/pack), é só usar o e-mail da PUC.
 
 Também é bom saber que existem outros hosts de versionamento remoto, como o Gitlab e o Bitbucket. Mas essas ferramentas são pagas, então é mais provável que você só vá ter contato com elas quando estiver estagiando/trabalhando.
+
+## Dica pro fim de semana do pessoal
+
+A publi aqui é gratuita, só porque eu curto mesmo...
+
+- Assista [Maldição da Residência Hill](https://www.netflix.com/br/title/80189221) na Netflix
+- Assista [Maldição da Mansão Bly](https://www.netflix.com/br/title/81237854) na Netflix
+- Assista [Missa da Meia-Noite](https://www.netflix.com/br/title/81083626) na Netflix
+- Assista [Critical Role](https://www.youtube.com/playlist?list=PL1tiwbzkOjQxD0jjAE7PsWoaCrs0EkBH2) no Youtube (esse aqui no caso precisa de mais do que de um fim de semana)
