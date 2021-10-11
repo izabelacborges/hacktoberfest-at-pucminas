@@ -1,6 +1,6 @@
 # Hacktoberfest 2021 @ PUC Minas
 
-Partindo do pré-suposto que todo mundo aqui tá usando um sistema operacional tipo UNIX, seja alguma distribuição do linux ou macOS (e que quem infelizmente ainda estiver usando Windows tem o [WSL2](https://ubunlog.com/pt/wsl-como-instalar-y-usar-el-susbistema-ubuntu-en-windows-10/) instalado), vamos à alguns recursos necessários antes de começar esse workshop...
+Partindo do pré-suposto que todo mundo aqui tá usando um sistema operacional tipo UNIX, seja alguma distribuição do linux ou macOS (e que quem infelizmente ainda estiver usando Windows tenha o [WSL2](https://ubunlog.com/pt/wsl-como-instalar-y-usar-el-susbistema-ubuntu-en-windows-10/) instalado), vamos à alguns recursos necessários antes de começar esse workshop...
 
 PS.: se você decidir usar o Windows puro pra esse workshop, te desejo sorte, mas eu talvez não consiga te ajudar a resolver pepinos que eventualmente ocorram na instalação de algumas coisas 🤷
 
