@@ -2,150 +2,73 @@
 
 > git the Fork on! talk by [@izabelacborges](https://github.com/izabelacborges)
 
-Partindo do pré-suposto que todo mundo aqui tá usando um sistema operacional tipo UNIX, seja alguma distribuição do linux ou macOS (e que quem infelizmente ainda estiver usando Windows tenha o [WSL2](https://ubunlog.com/pt/wsl-como-instalar-y-usar-el-susbistema-ubuntu-en-windows-10/) instalado), vamos à alguns recursos necessários antes de começar esse workshop...
+O intuito desse repositório é fornecer fontes para o aprendizado de git, e conscientização sobre contribuições open source, como forma de promover contribuições ao Hacktoberfest.
 
-PS.: se você decidir usar o Windows puro pra esse workshop, te desejo sorte, mas eu talvez não consiga te ajudar a resolver pepinos que eventualmente ocorram na instalação de algumas coisas 🤷
+## O que é o Hacktoberfest?
 
-## Comandos de terminal
+O Hacktoberfest é um evento mundial promovido pela [Digital Ocean](https://www.digitalocean.com/) que ocorre anualmente no mês de Outubro com o intuito de incentivar pessoas a contribuir para projetos open source hosteados no Github e Gitlab.
 
-Espero que vocês estejam pelo menos um pouco familiarizados com comandos de terminal. E caso não estejam, tem uma colinha fácil [aqui](https://www.hostinger.com.br/tutoriais/comandos-linux).
+Como meio de incentivo, a Digital Ocean premia todos os participantes que completarem o número necessário de pull requests, com uma camisa do evento e um pack de adesivos.
 
-Inclusive, uma boa testar esses no seu próprio terminal pra ter uma ideia de como eles funcionam na prática.
+Para participar do Hacktoberfest é só você se inscrever por [aqui](https://hacktoberfest.digitalocean.com/register).
 
-PS.2: Se você estiver usando o Windows puro, a Microsoft tem uma [lista enorme aqui](https://docs.microsoft.com/pt-br/windows-server/administration/windows-commands/windows-commands).
+### Regras do Hacktoberfest
 
-## Instalando o git
+Para ganhar a camisa, você deve fazer 4 pull requests (PRs) entre 1º e 31 de Outubro em qualquer fuso horário. PRs podem ser feitos em qualquer repositório aberto no Github ou Gitlab, com o tópico 'hacktoberfest' associado. Os PRs devem conter commits que você mesmo fez, sem o uso de bots, e sem que sejam para um repositório aberto por você mesmo. PRs reportados por mantenedores como spam ou que tenham sido automatizados serão marcados como inválidos e não serão contados como válidos para ganhar a camisa. Em 2021, os primeiros 50,000 a completarem os 4 PRs ganharão a camisa.
 
-### Instalando o git no linux (Ubuntu/Debian/WSL2)
+### Valores do Hacktoberfest
 
-1. Abra o terminal e execute os seguintes comandos:
+- Todas as pessoas são bem-vindas
+- Quantidade é divertido, qualidade é fundamental
+- Ações de curto prazo para um impacto de longo prazo
 
-```bash
-sudo apt-get update
-sudo apt-get install git
-```
+### Ações desencorajadas
 
-1. Verifique se a instalação ocorreu com sucesso:
+- PRs automatizados, como scripts para abrir Prs que deletem espaços em branco no fim de linhas ou que otimizem imagens.
+- PRs que são classificados como intrometidos, como usar uma branch ou commits de outro usuário para fazer um PR.
+- PRs que são marcados por um mantenedor de repositório/projeto como um um dificultador ao invés de uma ajuda.
+- Inserir seu nome em um arquivo de texto ou markdown apenas para criar um PR.
+- Algo que é claramente apenas uma maneira de aumentar a sua contagem de PRs em +1.
 
-```bash
-git --version
-```
+Por último, um PR consertando um erro de grafia em uma documentação é ok. 5 PRs já não são.
 
-1. Configure o git para o seu usuário:
+## Instalando o Git
 
-```bash
-git config --global user.name "Nome Sobrenome"
-git config --global user.email "exemplo@seuemail.com"
-git config --global color.ui true
-git config --global core.editor "vim"
-```
+Nós temos um tutorial de como instalar o git [aqui](https://github.com/izabelacborges/hacktoberfest-at-pucminas/blob/main/instalando-git.md)!
 
-Nesse caso o vim foi usado como o editor padrão para edição de mensagens de prompt do git. Usamos o vim porque ele abre no próprio terminal e é geralmente mais fácil e rápido, mas você pode trocar isso depois por algum dos outros existentes na tabela presente [nesta página](https://www.atlassian.com/br/git/tutorials/setting-up-a-repository/git-config).
+## Aprendendo Git
 
-### Instalando o git no linux (Fedora)
+Esse repositório é essencialmente algo para acompanhar o meet up de Git que o DACC junto com a Coordenação do curso de Ciência da Computação oferece aos alunos da PUC-MG anualmente no mês de outubro, então caso você não tenha participado do encontro, procure saber se algum ainda vai ocorrer em Outubro deste ano. Você pode verificar isso no [instagram](https://www.instagram.com/daccpucmg/) e [facebook](https://www.facebook.com/daccpucmg/) do DACC, ou entrar em contato com a coordenação do ICEI em [iceicoordcc@pucminas.br](mailto:iceicoordcc@pucminas.br).
 
-1. Abra o terminal e execute os seguintes comandos:
+Caso já tenham acontecido os meet ups, você pode ver nosso material de apoio do meet up com o tutorial de git [neste link](https://bit.ly/Hacktoberfest2021PUCMG).
 
-```bash
-sudo dnf check-update
-sudo dnf install git
-```
+Você também pode acessar o [Guia Prático de git](http://rogerdudler.github.io/git-guide/index.pt_BR.html) que contém os comandos básicos para criar/clonar um repositório e fazer seus commits. Caso queira ter algo sempre à mão, você pode baixar e imprimir a [cheatsheet](https://services.github.com/on-demand/downloads/pt_BR/github-git-cheat-sheet.pdf) de comandos compilada pelo GitHub.
 
-1. Verifique se a instalação ocorreu com sucesso:
+Se quiser aprender a usar o git like a pro, usando um workflow que a maioria das grandes empresas usam, é só usar o [git flow](https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html) nos seus projetos.
 
-```bash
-git --version
-```
+## Fazendo um Pull Request (PR)
 
-1. Configure o git para o seu usuário:
+A quarta seção do nosso [material de apoio](https://bit.ly/Hacktoberfest2021PUCMG) tem um tutorial de como fazer um fork e um pull request, e você pode facilmente seguir esse tutorial :D
 
-```bash
-git config --global user.name "Nome Sobrenome"
-git config --global user.email "exemplo@seuemail.com"
-git config --global color.ui true
-git config --global core.editor "vim"
-```
+Também existe [esse post](https://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request/) mais detalhado sobre como fazer um PR e você pode segui-lo.
 
-Nesse caso o vim foi usado como o editor padrão para edição de mensagens de prompt do git. Usamos o vim porque ele abre no próprio terminal e é geralmente mais fácil e rápido, mas você pode trocar isso depois por algum dos outros existentes na tabela presente [nesta página](https://www.atlassian.com/br/git/tutorials/setting-up-a-repository/git-config).
+## Projetos legais para colaborar
 
-### Instalando o git no linux (CentOS/RHEL)
+Se você nunca colaborou com um projeto open source, você pode [ler um pouco](https://opensource.guide/how-to-contribute/) sobre porquê você deveria contribuir.
 
-1. Abra o terminal e execute os seguintes comandos:
+E aqui tem uma lista de lugares que compartilham links de projetos onde iniciantes podem ajudar:
 
-```bash
-sudo yum update
-sudo yum install git
-```
+- [Up For Grabs](https://up-for-grabs.net/)
+- [Issuehub.io](http://issuehub.io/)
+- [First Timers Only](https://twitter.com/first_tmrs_only)
+- [Your First PR](http://yourfirstpr.github.io/)
+- [Awesome for Beginners](https://github.com/mungell/awesome-for-beginners)
 
-1. Verifique se a instalação ocorreu com sucesso:
+Se você se sente um pouco mais confortável com contribuições, a [@jtemporal](https://github.com/jtemporal) compilou uma [lista de repositórios brasileiros](https://jtemporal.com/projetos-brasileiros-para-fazer-pull-requests-nesse-hacktoberfest-2021/) 🇧🇷 separados por linguagem, que precisam de contribuições!
 
-```bash
-git --version
-```
+## Boas práticas ao fazer seus commits, issues e PRs
 
-1. Configure o git para o seu usuário:
-
-```bash
-git config --global user.name "Nome Sobrenome"
-git config --global user.email "exemplo@seuemail.com"
-git config --global color.ui true
-git config --global core.editor "vim"
-```
-
-Nesse caso o vim foi usado como o editor padrão para edição de mensagens de prompt do git. Usamos o vim porque ele abre no próprio terminal e é geralmente mais fácil e rápido, mas você pode trocar isso depois por algum dos outros existentes na tabela presente [nesta página](https://www.atlassian.com/br/git/tutorials/setting-up-a-repository/git-config).
-
-### Instalando o git no macOS X
-
-1. Abra o terminal e instale o Homebrew (caso já tenha ele instalado, só seguir pro próximo comando!):
-
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-1. Execute os seguintes comandos:
-
-```bash
-brew update
-brew install git
-```
-
-1. Verifique se a instalação ocorreu com sucesso:
-
-```bash
-git --version
-```
-
-1. Configure o git para o seu usuário:
-
-```bash
-git config --global user.name "Nome Sobrenome"
-git config --global user.email "exemplo@seuemail.com"
-git config --global color.ui true
-git config --global core.editor "vim"
-```
-
-Nesse caso o vim foi usado como o editor padrão para edição de mensagens de prompt do git. Usamos o vim porque ele abre no próprio terminal e é geralmente mais fácil e rápido, mas você pode trocar isso depois por algum dos outros existentes na tabela presente [nesta página](https://www.atlassian.com/br/git/tutorials/setting-up-a-repository/git-config).
-
-### Instalando o git no Windows
-
-Achei esse [tutorialzinho aqui](https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/), e espero que role sem problemas.
-
-Depois de instalar só configurar com:
-```bash
-git config --global user.name "Nome Sobrenome"
-git config --global user.email "exemplo@seuemail.com"
-git config --global color.ui true
-```
-
-Para configurar o editor padrão de edição de mensagens do prompt do git, só consultar os editores existentes na tabela presente [nesta página](https://www.atlassian.com/br/git/tutorials/setting-up-a-repository/git-config).
-
-## Faça uma conta no Github
-
-- [Github Sign up](https://github.com/signup)
-
-Inclusive, pra quem é estudante o Github oferece umas coisas bem legais, então faz o seu [cadastro aqui](https://education.github.com/pack), é só usar o e-mail da PUC.
-
-Também é bom saber que existem outros hosts de versionamento remoto, como o Gitlab e o Bitbucket. Mas essas ferramentas são pagas, então é mais provável que você só vá ter contato com elas quando estiver estagiando/trabalhando.
+Temos um mini guia de boas práticas [aqui](https://github.com/izabelacborges/hacktoberfest-at-pucminas/blob/main/boas-praticas.md) :)
 
 ## Dica pro fim de semana do pessoal
 
