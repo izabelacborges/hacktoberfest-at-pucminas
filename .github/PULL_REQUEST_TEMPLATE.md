@@ -1,3 +1,6 @@
+**Linked issue:**
+Use reserved word to link issue.
+
 **What was done in this PR?**
 A clear and concise description of what was done.
 
@@ -9,7 +12,7 @@ A clear and concise description of what was done.
 - [ ] This PR has the related labels assigned to it.
 - [ ] I left a note in the `hello` subfolder. (Optional)
 
-**Additional info**
+**Additional info:**
 Provide any other additional info, otherwise leave blank.
 
 ## [pt-BR]
