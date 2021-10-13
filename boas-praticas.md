@@ -13,3 +13,19 @@ Esse documento contém dicas de como fazer commits, issues e PRs melhores!
 - **Verifique as issues existentes:** Sempre olhe as issues existentes antes de fazer seu pull request. Talvez a necessidade de alteração já exista e alguém já esteja trabalhando nela.
 - **Crie issues novas:** Caso você tenha uma proposta de adição de informação ou de conserto/melhoria, que não é contemplado por nenhuma das issues existentes, crie uma issue nova.
 - **Use os templates de issues:** Ao criar uma issue nova, use os templates existentes. Atualmente temos os templates de "Solicitação de Informação" para PRs de adição de informação e "Necssidade de alteração" para PRs que melhoram nosso projetinho.
+
+## Fazendo seu Pull Request
+
+- **Faça PRs a partir de uma branch!** Depois de fazer seu fork, crie uma branch e faça o PR a partir dela ao invés da main do seu fork.
+- **Use um template no seu pull request.** Assim como templates para issues, temos templates para pull requests, selecione o template desejado e complete com as informaçÕes necessárias.
+- **Relacione seu PR à uma issue!** Você pode relacionar seu PR à uma issue usando as palavras reservadas:
+  - close
+  - closes
+  - closed
+  - fix
+  - fixes
+  - fixed
+  - resolver
+  - resolve
+  - resolved
+- **Revise o checklist no template do PR.** Revise o checklist e complete caso falta alguma coisa. Os commits feitos pra branch usada no PR aparecerão automaticamente no PR já feito!
