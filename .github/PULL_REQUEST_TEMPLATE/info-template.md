@@ -1,12 +1,3 @@
----
-name: New Info
-about: Suggest an improvement for this repository
-title: Resolves #[issue number]: [Short description]
-labels: ''
-assignees: ''
-
----
-
 **What was done in this PR?**
 A clear and concise description of what was done.
 
