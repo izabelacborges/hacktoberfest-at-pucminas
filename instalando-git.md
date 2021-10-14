@@ -128,7 +128,73 @@ Nesse caso o vim foi usado como o editor padrão para edição de mensagens de p
 
 ### Instalando o git no Windows
 
-Achei esse [tutorialzinho aqui](https://dicasdeprogramacao.com.br/como-instalar-o-git-no-windows/), e espero que role sem problemas.
+1. Primeiro, acesse o site oficial e faça download do instalador do git.
+
+    ![Página de download do instalador do GIT](images/instalando-git/windows/site-download-git.png)
+
+2. Após o download, execute o instalador.
+
+    ![Executando o instalador do GIT](images/instalando-git/windows/executando-o-instalador-do-git.png)
+
+3. O instalador irá apresentar uma tela com os termos da licença de utilização do Git.
+
+    ![Primeira tela do instalador do GIT.](images/instalando-git/windows/instalador-git-01-termos.png)
+
+4. Em seguida, você poderá definir o local de instalação.
+
+    ![Tela de seleção do local de instalação do GIT.](images/instalando-git/windows/instalador-git-02-local.png)
+
+5. O instalador então possibilita a instalação de alguns componentes. Marque o que você deseja que seja instalado e desmarque o você prefere que não seja instalado.
+
+    ![Tela de instalação de componentes.](images/instalando-git/windows/instalador-git-03-componentes.png)
+
+6. Em seguida, selecione um editor de texto padrão para ser utilizado pelo Git para editar conflitos.
+
+    ![Tela de seleção do editor padrão.](images/instalando-git/windows/instalador-git-05-editor.png)
+
+7. O instalador nos possibilita editar o nome do branch inicial. No momento, o Git nomeia por padrão o branch inicial como `master`. Escolha entre alterar ou manter o nome padrão e clique em Next.
+
+    ![Tela de seleção do nome do branch inicial.](images/instalando-git/windows/instalador-git-06-branch-nome.png)
+
+8. A tela seguinte permite configurar o uso dos comandos do Git. Escolha a opção que acha mais adequada para você e clique em Next.
+
+    ![Tela de opções de uso do Git a partir da linha de comando.](images/instalando-git/windows/instalador-git-07-path-env.png)
+
+9. Em seguida, escolha qual cliente de SSH o Git deve utilizar e continue.
+
+    ![Tela de seleção do client de SSH.](images/instalando-git/windows/instalador-git-08-cliente-ssh.png)
+
+10. Na próxima tela, o instalador permite escolher qual biblioteca SSL/TLS o Git deve utilizar para conexões HTTPS. Escolha a melhor opção para você e continue.
+
+    ![Tela de seleção da biblioteca SSL/TLS.](images/instalando-git/windows/instalador-git-09-https-backend.png)
+
+11. Em seguida, escolha a opção mais adequada de delimitador de linha para você clique em Next.
+
+    ![Tela de configuração do delimitador de linha.](images/instalando-git/windows/instalador-git-10-delimitadores-de-linha.png)
+
+12. Decida qual emulador de terminal que você quer usar para o Git e continue.
+
+    ![Tela de seleção do emulador de terminal.](images/instalando-git/windows/instalador-git-11-emulador-de-terminal.png)
+
+13. Escolha a opção que acha mais adequada para utilizar como comportamento padrão do `git pull` e clique em Next.
+
+    ![Tela de configuração do comportamento do `git pull`.](images/instalando-git/windows/instalador-git-12-git-pull.png)
+
+14. O instalador permite habilitar o uso do [Git Credential Manager Core](https://github.com/microsoft/Git-Credential-Manager-Core). Escolha se deseja utilizá-lo ou não e clique em Next.
+
+    ![Tela de configuração do Git Credential Manager Core.](images/instalando-git/windows/instalador-git-13-credential-helper.png)
+
+15. É possível habilitar alguns recursos extras. Escolha se deseja habilitá-los ou não e clique em Next.
+
+    ![Tela de seleção recursos extras.](images/instalando-git/windows/instalador-git-14-recursos-extras.png)
+
+16. É possível também habilitar recursos experimentais. Escolha se deseja habilitá-los ou não e clique em Install.
+
+    ![Tela de seleção recursos experimentais.](images/instalando-git/windows/instalador-git-15-recursos-experimentais.png)
+
+17. Finalmente, você pode escolher executar o prompt do Git e também pode ver as notas da versão lançada. Decida o que deseja habilitar e clique em Finish para completar a instalação.
+
+    ![Tela de seleção recursos experimentais.](images/instalando-git/windows/instalador-git-16-finalizar.png)
 
 Depois de instalar só configurar com:
 ```bash
