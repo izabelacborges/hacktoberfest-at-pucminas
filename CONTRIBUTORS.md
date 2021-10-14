@@ -1,1 +1,2 @@
 - Izabela Borges | [@izabelacborges](https://github.com/izabelacborges)
+- Angela Lima | [@angelamcosta](https://github.com/angelamcosta)
